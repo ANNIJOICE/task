@@ -4,7 +4,7 @@ var body_parser = require('body_parser');
 request.get('/action',function(req,res)
 {
 	res.send('your name is'+req.body.name)<br>
-	res.send('your age is'+req.body.age)
+	res.send('your age is'+req.body.age);
 });
 app.listen(3000,()=>
 {
